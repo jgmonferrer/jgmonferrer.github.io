@@ -1,18 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
  La parte fija del fichero xml correspondiente a un rss 
 -->
 <rss version="2.0">
 <channel>
-<title>El nombre de nuestro feed RSS</title>
-<link></link>
+<title>RSS</title>
+<link>https://jgmonferrer.github.io</link>
 <description>Contenido que vamos a ofrecer a los usuarios</description>
 <!-- La parte fija opcional -->
 <language>es-ES</language>
 <image>
-<title>Título de la Imagen</title>
-<url>http://www.mipagina.com/logo-rss.png</url>
-<link>http://www.mipagina.com</link>
+<title>Logo_RSS</title>
+<url>https://jgmonferrer.github.io/logo-rss.png</url>
+<link>https://jgmonferrer.github.io</link>
 <width>90</width>
 <height>36</height>
 </image>
@@ -20,7 +20,7 @@
  La parte variable, la que corresponde a cada noticia o ítem 
 -->
 <item>
-<title>Página web 1</title>
+<title>w3schools HTML5</title>
 <link>
 https://www.w3schools.com/html/default.asp
 </link>
