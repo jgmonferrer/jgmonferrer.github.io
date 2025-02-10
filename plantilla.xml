@@ -20,6 +20,38 @@
  La parte variable, la que corresponde a cada noticia o ítem 
 -->
 <item>
+<title>Introducción</title>
+<link>
+https://jgmonferrer.github.io/#Introducción
+</link>
+<description>Introducción página web</description>
+</item>
+
+<item>
+<title>Novedades HTML5</title>
+<link>
+https://jgmonferrer.github.io/#Novedades
+</link>
+<description>Novedades y ventajas que ofrece HTML5</description>
+</item>
+
+<item>
+<title></title>
+<link>
+https://jgmonferrer.github.io/#Consejos
+</link>
+<description>Consejos para aprender a usar HTML5</description>
+</item>
+ 
+<item>
+<title>Soporte</title>
+<link>
+https://jgmonferrer.github.io/#Soporte
+</link>
+<description>Formulario</description>
+</item>
+ 
+ <item>
 <title>w3schools HTML5</title>
 <link>
 https://www.w3schools.com/html/default.asp
