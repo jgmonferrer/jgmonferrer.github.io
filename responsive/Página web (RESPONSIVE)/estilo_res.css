@@ -1,0 +1,252 @@
+div.contenedor {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    row-gap: 20px;
+    grid-template-areas:
+    'header header header header header'
+    'nav intro intro intro intro'
+    'nov nov nov nov aside'
+    'vent vent vent cons cons'
+    'form form form form form'
+    'footer footer footer footer footer'
+    ;
+}
+
+div.contenedor div {
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(252, 179, 152);
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.nav div.menu {
+    border: 1px solid #444;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+    width: fit-content;
+    background-color: rgb(255, 151, 109);
+    margin: 0 auto;
+}
+
+.nav p {
+    border-bottom: 1px solid #444;
+    border-top: 1px solid #444;
+    margin: 0;
+}
+
+.nav p a {
+
+    display: block;
+    color: #272727;
+}
+.introduccion{
+    grid-area: intro;
+}
+.novedades{
+    grid-area: nov;
+}
+.ventajas{
+    grid-area: vent;
+}
+.consejos{
+    grid-area: cons;
+}
+
+
+.aside {
+    grid-area: aside;
+    text-align: right;
+    background-color: lightyellow;
+    float: right;
+    width: fit-content;
+    border: 4px solid #000;
+    padding: 0;
+}
+
+#form {
+    grid-area: form;
+    
+}
+
+.footer {
+    grid-area: footer;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    letter-spacing: 1px;
+    line-height: 120%;
+}
+body h1,h2,h3,h4,h5,h6 {
+    color: red;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    p {
+        font-size: 13px;
+    }
+    th {
+        font-size: 10px;
+    }
+    td{
+        font-size: 10px;
+    }
+    .header {grid-area: 1 / span 5;}
+    .nav {grid-area: 2 / span 5;}
+    .introduccion {grid-area: 3 / span 5;}
+    .novedades {grid-area: 4 / span 3;}
+    .aside {grid-area: 4 / span 2;}
+    .ventajas {grid-area: 5 / span 5;}
+    .consejos {grid-area: 6 / span 5;}
+    #form {grid-area: 7 / span 5;}
+    .footer {grid-area: 8 / span 5;}
+}
+
+@media (max-width: 600px) {
+    .header {grid-area: 1 / span 5;}
+    .nav {grid-area: 2 / span 5;}
+    .introduccion {grid-area: 3 / span 5;}
+    .novedades {grid-area: 4 / span 5;}
+    .aside {grid-area: 5 / span 5;}
+    .ventajas {grid-area: 6 / span 5;}
+    .consejos {grid-area: 7 / span 5;}
+    #form {grid-area: 8 / span 5;}
+    .footer {grid-area: 9 / span 5;}
+}
+
+a:link {
+    color: #53ff73;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+
+table.versiones {
+    border-collapse: collapse;
+    border: 2px solid #5e5e5e;
+    width: fit-content;
+}
+
+table.versiones th {
+    background-color: lightgreen;
+    
+}
+
+table.versiones td,th {
+    border: 2px solid #5e5e5e;
+}
+
+table.versiones tr:nth-child(even){
+    background-color: rgb(245, 255, 198);
+}
+
+table.versiones td.desconocido{
+    visibility: hidden;
+}
+
+
+ul.novedades{
+margin: 0;
+}
+
+
+ul.novedades li {
+    background: lightsalmon;
+    margin-left: 25px;
+    color: darkred;
+}
+
+ul.novedades {
+    background: #ff870f;
+    padding: 20px;
+    border: 3px solid #cd6600;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+ol.ventajas {
+    background: #28c545;
+    padding: 20px;
+    border: 3px solid #008819
+}
+
+ol.ventajas  li{
+    background: #53ff73;
+    margin-left: 25px;
+    color: rgb(49, 95, 50);
+    border: 1px solid black;
+}
+
+ul.novedades li:hover {
+    background-color: linen;
+}
+
+ol.ventajas li:hover {
+    background-color: linen;
+}
+
+dl.consejos{
+    background-color: lightblue;
+    border: 1px solid blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+dl.consejos dt{
+    padding: 10px;
+}
+
+dl.consejos dd{
+    margin-left: 40px;
+    color: darkblue;
+    margin-bottom: 5px;
+
+}
+
+form {
+    border: 2px solid black;
+    background-color: lightskyblue;
+    width: fit-content;
+    padding: 10px;
+}
+
+div.campo {
+    border: 2px solid black;
+    background-color: lightcyan;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+div.campo input:hover, textarea:hover {
+    background-color: lightgray;
+    color: purple;
+    font-weight: bold;
+}
+
+div.acuerdo {
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    color: yellow;
+}
+
+div.envio {
+    text-align: center;
+}
