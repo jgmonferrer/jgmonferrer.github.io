@@ -105,6 +105,12 @@ body h1,h2,h3,h4,h5,h6 {
     td{
         font-size: 10px;
     }
+    dd{
+        font-size: 13px;
+    }
+    dt{
+        font-size: 13px;
+    }
     .header {grid-area: 1 / span 5;}
     .nav {grid-area: 2 / span 5;}
     .introduccion {grid-area: 3 / span 5;}
@@ -246,6 +252,11 @@ div.acuerdo {
     font-size: large;
     color: yellow;
 }
+
+div.envio {
+    text-align: center;
+}
+
 
 div.envio {
     text-align: center;
